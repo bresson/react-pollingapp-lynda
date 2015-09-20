@@ -1,0 +1,36 @@
+#questions>div>div {
+    padding: .5em;
+    cursor: pointer;
+    border: 2px solid green;
+    margin-bottom: 10px;
+}
+
+#questions>div>div:hover {
+    background-color: yellow;
+}
+
+.card{
+	padding: 10px 18px;
+	border: 2px solid #f9f9f9;
+	margin-bottom: 10px;
+}
+
+.card-success{
+	border: 2px solid #3fb618;
+}
+
+.card-danger{
+	border: 2px solid #ff0039;
+}
+
+.card-warning{
+	border: 2px solid #ff7518;
+}
+
+.card-info{
+	border: 2px solid #9954bb;
+}
+
+#currentQuestion .card{
+	cursor: pointer;
+}
