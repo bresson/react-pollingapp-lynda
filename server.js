@@ -58,7 +58,8 @@ io.sockets.on("connection", function(socket){
 
 	socket.on("start", function(payload){
 		speaker.name = payload.name;
-		speaker.id = this.id;
+		// this.id refers to this socket id
+		speaker.id = this.id; 
 		speaker.type = 'speaker';
 		title = payload.title;
 		this.emit("joined", speaker);
